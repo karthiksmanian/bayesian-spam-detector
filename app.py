@@ -13,6 +13,7 @@ from nltk.stem.porter import PorterStemmer
 ps = PorterStemmer()
 import streamlit as st
 nltk.download('punkt')
+nltk.download('stopwords')
 
 # In[21]:
 
